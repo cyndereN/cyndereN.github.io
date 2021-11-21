@@ -256,10 +256,11 @@ input, select, textarea {
 	}
 
 	blockquote {
-		border-right: solid 3px #ffffff;
+		border-right: solid 2px #ffffff;
 		font-style: italic;
-		margin: 0 0 1.5rem 0;
-		padding: 0.5rem 0 0.5rem 2rem;
+		font-size: 0.75rem;
+		margin: 0.5rem 0 2rem 0;
+		padding: 0.5rem 0.5rem 0.5rem 1rem;
 		text-align:right;
 	}
 
