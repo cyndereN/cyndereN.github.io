@@ -1,0 +1,50 @@
+Hi, my name is Ce, and it’s Okay to call me C or CC, if it is hard to pronounce. 
+I am an undergraduate Computer Science student at UCL. 
+I am in my third year and my graduation date is 6/2023. 
+I am thrilled to see your posting of this job, and more than happy to have this interview with you. 
+
+First of all, I would like to talk about my dream and passion.
+When I was a young kid, I always got touched by the marvelous world and contagious story presented by video games. 
+I think great video game is not only fun to play, but also teaches people. 
+For example, I learned about the importance of team work from DotA, Mafia series 
+taught me to be a responsible man, and Call of Duty demonstrates the cruelty of war, 
+RDR2 taught me to work hard to create a better life, not for me, but also for my family a
+nd friends. Since then, my dream has been to get into game industry and participating in the 
+development of a video game such as these games Because I would like to make games that 
+are not only fun, artistic, but also educational, especially to teenagers like the younger me. 
+Doing this job would be a huge step forward on my path of fulfilling my dream.
+
+Secondly, about my experience and prerequisite knowledge and skills that makes me qualified for this job. 
+I will introduce something that is not on the resume. 
+I am a life-long learner, I enjoy learning new knowledge on Moocs, and I get familiar with tools quick. 
+I am creative - often serving as a designer in my previous projects, I turned many of my interesting ideas into reality, 
+dealing with the creative tasks of UI design, page logic, game design, etc. 
+Meanwhile, I believe a good team generates more miracles than a talent does. 
+s a good communicator, I am good at dealing with the complex interdepartmental communications at work – 
+working with designers, develop some mechanics and system in the an ECS match game at Magic Tavern. 
+In addition, I always take the initiative to be a team leader where there is a chance. 
+As a leader in my previous work, I shouldered the most challenging development work of coding, research a
+nd design, coordinated the task sharing and supervised the schedule to ensure the successful project completion. 
+So, I believe my overall leadership and teamwork capacities will boost my future career
+
+
+I would like to talk about the challenges that I encounterd in the project WAPETS. 
+This is a industrial project. Me and my classmates worked as a team with IBM, and 
+were supervised by professor at UCL. WAPETS is an AI pet assistant that responds to being 
+spoken to, and touch under AR mode. I work as team leader, contributes to AI, desktop application, 
+AR mode, UI part using unity. One challenge is that, due to covid, I worked remotely in china, it’s 
+hard to get in touch with teammates. At first, I emailed them. And there is no response. So I decided 
+to take initiative and become the team leader, contacted the client from IBM and tutor, held meetings to 
+discuss about the project. I asked supervisor to help my team come up with a schedule and break out the 
+components that each one of you can work on. And this approach worked.
+
+As for technical challenges, Several unexpected bugs were encountered when I 
+integrated everything together as a deliverable final prototype. For example, the lights 
+dimmed when entering the next scene; Microphone failed to work in build, etc. Many of them can be 
+solved by digging answers on forums or stackoverflow, but there is one rather tricky – transparent 
+window is not working for 3D object. Traditional configuration by adding a box collider 2D did not 
+work. I first thought maybe it’s because the coordinates in 3D world differs with the coordinates 
+in 2D UI overlay, so I added the code for coordinate transformation, and an event handler to see 
+if the cursor is on object. Now the problem is clearer – the position of cursor is correct, 
+but it is not clicked through. So, I took an in-depth look with the source code, studied the code 
+checking the condition of set cursor click through. I made changes and fixed the bug.
