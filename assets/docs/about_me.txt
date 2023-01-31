@@ -11,10 +11,13 @@ taught me to be a responsible man, and Call of Duty demonstrates the cruelty of 
 RDR2 taught me to work hard to create a better life, not for me, but also for my family a
 nd friends. Since then, my dream has been to get into game industry and participating in the 
 development of a video game such as these games Because I would like to make games that 
-are not only fun, artistic, but also educational, especially to teenagers like the younger me. 
+are not only fun, artistic, but also educational, especially to teenagers like the younger me.
+I want to make this world a better place. 
 Doing this job would be a huge step forward on my path of fulfilling my dream.
 
 Secondly, about my experience and prerequisite knowledge and skills that makes me qualified for this job. 
+I study Computer Science and my current grade is first class honor. During my spare time, I
+had 5 internship experience in or related to game engineering roles.
 I will introduce something that is not on the resume. 
 I am a life-long learner, I enjoy learning new knowledge on Moocs, and I get familiar with tools quick. 
 I am creative - often serving as a designer in my previous projects, I turned many of my interesting ideas into reality, 
@@ -27,16 +30,18 @@ As a leader in my previous work, I shouldered the most challenging development w
 nd design, coordinated the task sharing and supervised the schedule to ensure the successful project completion. 
 So, I believe my overall leadership and teamwork capacities will boost my future career
 
+My hobbies are reading books, watching movies, listening to musics, making videos and playing football and basketball.
 
 I would like to talk about the challenges that I encounterd in the project WAPETS. 
 This is a industrial project. Me and my classmates worked as a team with IBM, and 
 were supervised by professor at UCL. WAPETS is an AI pet assistant that responds to being 
 spoken to, and touch under AR mode. I work as team leader, contributes to AI, desktop application, 
 AR mode, UI part using unity. One challenge is that, due to covid, I worked remotely in china, it’s 
-hard to get in touch with teammates. At first, I emailed them. And there is no response. So I decided 
+hard to get in touch with teammates. At first, I emailed them. And there is no response. I was really stressed and worried, not only about
+this project I was very passionate about, but also the mental and physical health of my teammates. So I decided 
 to take initiative and become the team leader, contacted the client from IBM and tutor, held meetings to 
 discuss about the project. I asked supervisor to help my team come up with a schedule and break out the 
-components that each one of you can work on. And this approach worked.
+components that each one of us can work on. And this approach worked. After that, I was the host of each meeting with client and the team.
 
 As for technical challenges, Several unexpected bugs were encountered when I 
 integrated everything together as a deliverable final prototype. For example, the lights 
