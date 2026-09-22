@@ -42,13 +42,24 @@
 
 						<!-- Intro -->
 							<article id="Experience">
-								<h2 class="major">Work Experience</h2>
+								<h2 class="major">Experience</h2>
+
+								<nav class="category-filters" aria-label="Experience categories">
+									<button type="button" class="button small primary" data-filter="all" aria-pressed="true">All</button>
+									<button type="button" class="button small" data-filter="work" aria-pressed="false">Work</button>
+									<button type="button" class="button small" data-filter="intern" aria-pressed="false">Intern</button>
+									<button type="button" class="button small" data-filter="education" aria-pressed="false">Education</button>
+									<button type="button" class="button small" data-filter="awards" aria-pressed="false">Awards</button>
+								</nav>
+
+								<section class="category-group" data-category="work">
+									<h3 class="major">Work</h3>
 									<h4>&nbspCoconut Island</h4>
 										<ul>
 											<li>Gameplay Programmer</li>
 											<li>Worked on 江南百景图 / Jiang Nan / Canal Towns.</li>
 										</ul>
-										
+
 									<h4>&nbspDambuster Studios</h4>
 										<ul>
 											<li>Gameplay Programmer</li>
@@ -56,8 +67,10 @@
 											<li>Worked on Dead Island series.</li>
 											<li>Decision Making, Animation, Combat, Navigation, EQS, Hit Detection and Reaction.</li>
 										</ul>
+								</section>
 
-
+								<section class="category-group" data-category="intern">
+									<h3 class="major">Intern</h3>
 									<h4>&nbspMagic Tavern</h4>
 										<ul>
 											<li>Intern Unity3D Gameplay Programmer</li>
@@ -78,7 +91,7 @@
 											<li>Worked on secondary development of Htc Vive Tracker, data analysis with python.</li>
 											<li>Worked through ideation, paper reading, etc. Participated in academic lectures, paper sharing sessions.</li>
 										</ul>
-										
+
 									<h4>&nbspIBM</h4>
 										<ul>
 											<li>Project Software Engineer</li>
@@ -87,13 +100,13 @@
 											<li>Enabled customization for Watson chatbot and voice controls, design and build vivid pet AI. Tested with Unit test, API test and UI test with Poco.</li>
 											<li>Worked as AI programmer, Unity programmer, Website programmer, UI programmer, Researcher and Product Manager.</li>
 										</ul>
-
+										
 									<h4>&nbspLenovo</h4>
 										<ul>
 											<li>Intern Unity Developer</li>
 											<li>Smart Education Team</li>
-											<li>Researched on technology of v-tuber demo (using OpenCV), the workflow of Digital Human, and Conversational Artificial Intelligence. 
-											<li>Built an digital human - virtual judge, which has lip-sync, expressions, and vivid animations.</li>	
+											<li>Researched on technology of v-tuber demo (using OpenCV), the workflow of Digital Human, and Conversational Artificial Intelligence.</li>
+											<li>Built an digital human - virtual judge, which has lip-sync, expressions, and vivid animations.</li>
 										</ul>
 
 									<h4>&nbspUniversity College London</h4>
@@ -103,9 +116,10 @@
 											<li>Built a Websocket client for Ubiq, a collaborative virtual environment research platform.</li>
 											<li>Visualized activity within a Ubiq server, using placeholder geometry to read in packets from Ubiq and create 2D representation of the movement of objects.</li>
 										</ul>
-									
+								</section>
 
-								<h2 class="major">Education Experience</h2>
+								<section class="category-group" data-category="education">
+									<h3 class="major">Education</h3>
 									<h4>
 										&nbspMOOCs from edX, Coursera, icourse163, etc.
 									</h4>
@@ -132,8 +146,10 @@
 											<li>Member of experimental class for science students</li>
 											<li>Member of Mathematical Modeling society</li>
 										</ul>
-                                
-								<h2 class="major">Awards</h2>
+								</section>
+
+								<section class="category-group" data-category="awards">
+									<h3 class="major">Awards</h3>
 									<ul>
 										<li> MCV/DEVELOP's 30 under 30 2025</li>
 										<li> Semi-final of 2022 Tencent Youth Game Designer Challenge</li>
@@ -148,6 +164,7 @@
 										<li> Annual Elite Scholarship at BNDS</li>
 										<li> ... </li>
 									</ul>
+								</section>
 
 							</article>
 
@@ -155,17 +172,18 @@
 							<article id="Portfolio">
 								<h2 class="major">Portfolio</h2>
 
-								<h3>江南百景图 / Jiang Nan / Canal Towns</h3>
-								<h4>&nbspAn ancient Chinese style city-building and management simulation game</h4>
-								<ul>
-									<li>C#, Unity</li>
-								</ul>
-								<span class="image main"><img src="images/jiangnan.jpg" alt=""/>
-									<blockquote>
-										Gameplay Programmer @<a href="https://www.coconut.is/">Coconut Island</a>. &nbsp&nbsp&nbsp&nbsp
-									</blockquote>
-								</span>
+								<nav class="category-filters" aria-label="Portfolio categories">
+									<button type="button" class="button small primary" data-filter="all" aria-pressed="true">All</button>
+									<button type="button" class="button small" data-filter="console" aria-pressed="false">Console</button>
+									<button type="button" class="button small" data-filter="indie" aria-pressed="false">PC/Indie</button>
+									<button type="button" class="button small" data-filter="mobile" aria-pressed="false">Mobile</button>
+									<button type="button" class="button small" data-filter="board" aria-pressed="false">Board</button>
+									<button type="button" class="button small" data-filter="jam" aria-pressed="false">Game Jam</button>
+									<button type="button" class="button small" data-filter="learning" aria-pressed="false">Learning</button>
+								</nav>
 
+								<section class="category-group" data-category="console">
+									<h3 class="major">Console</h3>
 								<h3>Dead Island 2</h3>
 								<h4>&nbspA pulp adventure FPS zombie-slaying game</h4>
 								<ul>
@@ -181,7 +199,10 @@
 										Gameplay Programmer @<a href="https://www.dsdambuster.com/">Dambuster Studios</a>. &nbsp&nbsp&nbsp&nbsp
 									</blockquote>
 								</span>
+								</section>
 
+								<section class="category-group" data-category="indie">
+									<h3 class="major">PC/Indie</h3>
 								<h3>Fertility, Crime, and Economy</h3>
 								<h4>&nbspA rogue-like strategic simulation game</h4>
 								<ul>
@@ -199,29 +220,6 @@
 									</blockquote>
 								</span>
 
-								<h3>HoB</h3>
-								<h4>&nbspA Match-3 game framework of ECS architecture</h4>
-								<ul>
-									<li>C#, Unity3D</li>
-									<li>During Internship at Magic Tavern</li>
-									<li>Implemented Diagonal Fall System</li>
-									<li>Refactored code with new mechanisms and components</li>
-								</ul>
-								<span class="image main"><img src="images/ECS_Match.jpg" alt=""/>
-									<blockquote>
-										Intern Unity3D Gameplay Programmer @<a href="https://magictavern.com/">Magic Tavern</a>. &nbsp&nbsp&nbsp&nbsp
-									</blockquote>
-								</span>
-
-								<h3>Ofuro GO!</h3>
-								<h4>&nbspA rogue-lite casual shooter game</h4>
-								<ul>
-									<li>C#, Unity3D</li>
-									<li>Worked as game designer, game programmer as part of Global Game Jam</li>
-									<li>Worked with artist, producer and programmer</li>										
-								</ul>
-								<span class="image main"><img src="images/ofuro.png" alt=""/></span>
-								
 								<h3>Story Cook</h3>
 								<h4>&nbspA Story-driven farming & managing game</h4>
 								<ul>
@@ -239,7 +237,7 @@
 										<a href="https://www.bilibili.com/video/BV1jF411A7Jj/?spm_id_from=333.999.0.0&vd_source=784cac4665672e741fbe89004f7e0c75">2022 Tencent Youth Game Designer Challenge.</a>&nbsp&nbsp&nbsp&nbsp
 									</blockquote>
 								</span>
-								
+
 								<h3>JNDP</h3>
 								<h4>&nbspAn incremental idle desktop pet game.</h4>
 								<ul>
@@ -249,33 +247,6 @@
 									<li>Quirky talent trees, idle automation, healthy work reminders and in-game shop.</li>
 								</ul>
 								<span class="image main"><img src="images/JNDP.png" alt=""/></span>
-								
-
-								<h3>WAPETS2.0</h3>
-								<h4>&nbspA multi-platform AI assistant pet with AR mode</h4>
-								<ul>
-									<li>C#, Unity3D</li>
-									<li>Associated with IBM</li>
-									<li>Worked on AI, Desktop App, UI, AR, Research and Project Manager</li>
-								</ul>
-								<span class="image main"><img src="images/wapets.png" alt=""/>
-									<blockquote>
-										COMP0016 Group Project -
-										<a href="http://students.cs.ucl.ac.uk/2021/group38/index.html">Wapets2.0</a>&nbspwebsite.
-									</blockquote>
-								</span>
-								
-								<h3>Virtual Judge</h3>
-								<h4>&nbspAn interactive digital human with vivid expressions</h4>
-								<ul>
-									<li>C#, Unity3D</li>
-									<li>During Internship at Lenovo</li>
-								</ul>
-								<span class="image main"><img src="images/ai_chatbot.png" alt="" />
-									<blockquote>
-										Intern Unity3D Developer @<a href="http://research.lenovo.com/webapp/view_English/index.html">LENOVO Research</a>. &nbsp&nbsp&nbsp&nbsp
-									</blockquote>
-								</span>
 
 								<h3>SpaceWar!</h3>
 								<h4>&nbspA maniac shooter battle royale game</h4>
@@ -296,6 +267,83 @@
 								</span>
 
 								<h3>Sea of Connections</h3>
+								<h4>&nbspAn asynchronous social game</h4>
+								<ul>
+									<li>C#, Unity3D</li>
+									<li>Focus on building and maintaining connections and emotional experience.</li>									
+								</ul>
+								<span class="image main"><img src="images/Sea_of_Connections.png" alt=""/></span>
+
+								<h3>WAPETS2.0</h3>
+								<h4>&nbspA multi-platform AI assistant pet with AR mode</h4>
+								<ul>
+									<li>C#, Unity3D</li>
+									<li>Associated with IBM</li>
+									<li>Worked on AI, Desktop App, UI, AR, Research and Project Manager</li>
+								</ul>
+								<span class="image main"><img src="images/wapets.png" alt=""/>
+									<blockquote>
+										COMP0016 Group Project -
+										<a href="http://students.cs.ucl.ac.uk/2021/group38/index.html">Wapets2.0</a>&nbspwebsite.
+									</blockquote>
+								</span>
+
+								<h3>Virtual Judge</h3>
+								<h4>&nbspAn interactive digital human with vivid expressions</h4>
+								<ul>
+									<li>C#, Unity3D</li>
+									<li>During Internship at Lenovo</li>
+								</ul>
+								<span class="image main"><img src="images/ai_chatbot.png" alt="" />
+									<blockquote>
+										Intern Unity3D Developer @<a href="http://research.lenovo.com/webapp/view_English/index.html">LENOVO Research</a>. &nbsp&nbsp&nbsp&nbsp
+									</blockquote>
+								</span>
+
+								<h3>Ubiq Web Client</h3>
+								<h4>&nbspA websocket client for a social VR platform</h4>
+								<ul>
+									<li>JavaScript, Node.JS</li>
+									<li>During Internship at UCL</li>
+								</ul>
+								<span class="image main"><img src="images/ubiqwebclient.png" alt="" />
+									<blockquote>
+									Research Intern @<a href="http://vecg.cs.ucl.ac.uk/">VECG lab, UCL</a>. &nbsp&nbsp&nbsp&nbsp
+									</blockquote>
+								</span>
+								</section>
+
+								<section class="category-group" data-category="mobile">
+									<h3 class="major">Mobile</h3>
+								<h3>江南百景图 / Jiang Nan / Canal Towns</h3>
+								<h4>&nbspAn ancient Chinese style city-building and management simulation game</h4>
+								<ul>
+									<li>C#, Unity</li>
+								</ul>
+								<span class="image main"><img src="images/jiangnan.jpg" alt=""/>
+									<blockquote>
+										Gameplay Programmer @<a href="https://www.coconut.is/">Coconut Island</a>. &nbsp&nbsp&nbsp&nbsp
+									</blockquote>
+								</span>
+
+								<h3>HoB</h3>
+								<h4>&nbspA Match-3 game framework of ECS architecture</h4>
+								<ul>
+									<li>C#, Unity3D</li>
+									<li>During Internship at Magic Tavern</li>
+									<li>Implemented Diagonal Fall System</li>
+									<li>Refactored code with new mechanisms and components</li>
+								</ul>
+								<span class="image main"><img src="images/ECS_Match.jpg" alt=""/>
+									<blockquote>
+										Intern Unity3D Gameplay Programmer @<a href="https://magictavern.com/">Magic Tavern</a>. &nbsp&nbsp&nbsp&nbsp
+									</blockquote>
+								</span>
+								</section>
+
+								<section class="category-group" data-category="board">
+									<h3 class="major">Board</h3>
+								<h3>Sea of Connections</h3>
 								<h4>&nbspA Flip 7 inspired destop game</h4>
 								<ul>
 									<li>TypeScript, HTML/CSS, AI studio</li>
@@ -307,13 +355,25 @@
 									</blockquote>
 								</span>
 
-								<h3>Sea of Connections</h3>
-								<h4>&nbspAn asynchronous social game</h4>
+								<h3>King of the Games</h3>
+								<h4>&nbspA chaotic party game</h4>
+								<ul>
+									<li>nanDECK</li>
+									<li>Board game where players mash up random genres, themes, and restrictions to pitch the weirdest video game ever made.</li>
+								</ul>
+								<span class="image main"><img src="images/King_of_the_Games.png" alt=""/></span>
+								</section>
+
+								<section class="category-group" data-category="jam">
+									<h3 class="major">Game Jam</h3>
+								<h3>Ofuro GO!</h3>
+								<h4>&nbspA rogue-lite casual shooter game</h4>
 								<ul>
 									<li>C#, Unity3D</li>
-									<li>Focus on building and maintaining connections and emotional experience.</li>									
+									<li>Worked as game designer, game programmer as part of Global Game Jam</li>
+									<li>Worked with artist, producer and programmer</li>										
 								</ul>
-								<span class="image main"><img src="images/Sea_of_Connections.png" alt=""/></span>
+								<span class="image main"><img src="images/ofuro.png" alt=""/></span>
 
 								<h3>Back to the Bits</h3>
 								<h4>&nbspA rhythm-based action game</h4>
@@ -334,8 +394,18 @@
 								<span class="image main">
 									<img src="images/EchoDiver.png" alt=""/>
 								</span>
-								
-									
+
+								<h3>Magic Brush</h3>
+								<h4>&nbspAn adventure MR game design</h4>
+								<ul>
+									<li>Using MR Ink Stylus for Meta Quest at XR Designer Challenge</li>
+									<li>Core gameplay is using a magical brush in VR to create objects that interact with the environment to solve puzzles</li>
+								</ul>
+								<span class="image main"><img src="images/Magic_Brush.jpg" alt=""/></span>
+								</section>
+
+								<section class="category-group" data-category="learning">
+									<h3 class="major">Learning</h3>
 								<h3>Game AI Prototypes</h3>
 								<h4>&nbspA collection of AI technique implementations of games - built for learning purpose.</h4>
 								<span class="image main"><img src="images/Animation.png" alt="" />
@@ -368,7 +438,7 @@
 										Ragdoll &nbsp&nbsp&nbsp&nbsp
 									</blockquote>
 								</span>
-										
+
 								<h3>More Projects</h3>
 								<h4>&nbspPlease see <a href="https://github.com/cyndereN">GITHUB REPOs</a> for more!</h4>
 								<ul>
@@ -430,35 +500,6 @@
 									</blockquote>
 								</span>
 
-
-								<h3>King of the Games</h3>
-								<h4>&nbspA chaotic party game</h4>
-								<ul>
-									<li>nanDECK</li>
-									<li>Board game where players mash up random genres, themes, and restrictions to pitch the weirdest video game ever made.</li>
-								</ul>
-								<span class="image main"><img src="images/King_of_the_Games.png" alt=""/></span>
-
-								<h3>Ubiq Web Client</h3>
-								<h4>&nbspA websocket client for a social VR platform</h4>
-								<ul>
-									<li>JavaScript, Node.JS</li>
-									<li>During Internship at UCL</li>
-								</ul>
-								<span class="image main"><img src="images/ubiqwebclient.png" alt="" />
-									<blockquote>
-									Research Intern @<a href="http://vecg.cs.ucl.ac.uk/">VECG lab, UCL</a>. &nbsp&nbsp&nbsp&nbsp
-									</blockquote>
-								</span>
-
-								<h3>Magic Brush</h3>
-								<h4>&nbspAn adventure MR game design</h4>
-								<ul>
-									<li>Using MR Ink Stylus for Meta Quest at XR Designer Challenge</li>
-									<li>Core gameplay is using a magical brush in VR to create objects that interact with the environment to solve puzzles</li>
-								</ul>
-								<span class="image main"><img src="images/Magic_Brush.jpg" alt=""/></span>
-
 								<h3>CのNotePad</h3>
 								<h4>&nbspA wechat weblet for notes and to-do lists</h4>
 								<ul>
@@ -470,12 +511,25 @@
 									Later developed a website version and this <a href="#" target="blank">blog</a>.&nbsp&nbsp&nbsp&nbsp
 									</blockquote>
 								</span>
+								</section>
+
 							</article>
 
 						<!-- Contact -->
 							<article id="Contact">
 										
 								<h2 class="major">About Me</h2>
+
+								<nav class="category-filters" aria-label="About categories">
+									<button type="button" class="button small primary" data-filter="all" aria-pressed="true">All</button>
+									<button type="button" class="button small" data-filter="intro" aria-pressed="false">Intro</button>
+									<button type="button" class="button small" data-filter="reading" aria-pressed="false">Reading List</button>
+									<button type="button" class="button small" data-filter="hobbies" aria-pressed="false">Hobbies</button>
+									<button type="button" class="button small" data-filter="contact" aria-pressed="false">Contact</button>
+								</nav>
+
+								<section class="category-group" data-category="intro">
+									<h3 class="major">Intro</h3>
 								<p>
 									My first time as a child diving into the marvelous world structured by video games left an indelible impression
 									on me. Since then, I never cease to be overwhelmed by the charm of games, which allows me to play different
@@ -483,7 +537,13 @@
 									developer like Hideo Kojima, Jenova Chen or Suda51 has become my career ambition. I aspire to develop an award-winning game that has
 									a positive and lasting impact on its players, especially teenagers who crave recognition and guidance.
 								</p>
+								<span class="image main"><img src="images/selfie1.jpg" alt="" />
+									<blockquote>和喜歡的壹切在壹起. &nbsp&nbsp&nbsp&nbsp</blockquote>
+								</span>
+								</section>
 
+								<section class="category-group" data-category="reading">
+									<h3 class="major">Reading List</h3>
 								<p>
 									As a lifelong learner, I actively seek out opportunities 
 									to expand my knowledge beyond my day-to-day work. This includes 
@@ -554,15 +614,11 @@
 									<i>Zero to One</i>, 
 									...
 								</p>
+								</section>
 
-								
-								<span class="image main"><img src="images/selfie1.jpg" alt="" />
-									<blockquote>和喜歡的壹切在壹起. &nbsp&nbsp&nbsp&nbsp</blockquote>
-								</span>	
-								
-
+								<section class="category-group" data-category="hobbies">
+									<h3 class="major">Hobbies</h3>
 								<p>
-
 									Besides developing games and learning about game-related knowledge, my hobbies include:
 								</p>
 								<p>
@@ -574,8 +630,8 @@
 								<p>
 									Arts: Reading (as you might have noticed!), movies (Lou Ye, Shinji Somai, Emir Kusturica, etc.), music (math rock, Taiwanese indie, Beijing punk, Undaloop rap), playing guitar, and traveling (25+ countries).
 								</p>
-								<p>			
-									Other: Cooking, languages and culture (Spanish, Cantonese), volunteering. 
+								<p>
+									Other: Cooking, languages and culture (Spanish, Cantonese), volunteering.
 								</p>
 
 								<span class="image main"><img src="images/syr.jpg" alt="" />
@@ -583,14 +639,17 @@
 										成為所有地方的所有人。&nbsp&nbsp&nbsp&nbsp
 									</blockquote>
 								</span>
-								
-								<h2 class="major">Contact</h2>
+								</section>
+
+								<section class="category-group" data-category="contact">
+									<h3 class="major">Contact</h3>
 								<h6>Email: cecao2000@outlook.com</h6>
 								<h6>Douban: cyndereN_</h6>
 								<h6>Zhihu: cyndereN</h6>
 								<h6>Bilibili: 积水潭医院终身会员</h6>
 								<h6>Wechat Official Account: CCnSAMORO5T</h6>
 								<span class="image main"><img src="images/nz.jpg" alt="" /></span>
+								</section>
 							</article>
 
 						<!-- Elements -->
@@ -616,6 +675,39 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+		<script>
+			(function () {
+				var articles = document.querySelectorAll('#main article');
+
+				function bind(root) {
+					var buttons = root.querySelectorAll('.category-filters [data-filter]');
+					var groups = root.querySelectorAll('.category-group');
+					if (!buttons.length || !groups.length) return;
+
+					function apply(filter) {
+						for (var i = 0; i < buttons.length; i++) {
+							var on = buttons[i].getAttribute('data-filter') === filter;
+							if (on) buttons[i].classList.add('primary');
+							else buttons[i].classList.remove('primary');
+							buttons[i].setAttribute('aria-pressed', on ? 'true' : 'false');
+						}
+						for (var j = 0; j < groups.length; j++) {
+							var show = filter === 'all' || groups[j].getAttribute('data-category') === filter;
+							if (show) groups[j].classList.remove('is-hidden');
+							else groups[j].classList.add('is-hidden');
+						}
+					}
+
+					for (var k = 0; k < buttons.length; k++) {
+						buttons[k].addEventListener('click', function () {
+							apply(this.getAttribute('data-filter'));
+						});
+					}
+				}
+
+				for (var a = 0; a < articles.length; a++) bind(articles[a]);
+			})();
+		</script>
 		<!-- 
 			<script>
 				L2Dwidget.init({

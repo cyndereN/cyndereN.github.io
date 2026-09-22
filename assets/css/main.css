@@ -1623,3 +1623,21 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+/* Category filters */
+
+	.category-filters {
+		margin: 0 0 2.5rem 0;
+	}
+
+		.category-filters .button {
+			margin: 0 0.5rem 0.5rem 0;
+		}
+
+	.category-group + .category-group {
+		margin-top: 1.5rem;
+	}
+
+	.category-group.is-hidden {
+		display: none;
+	}
